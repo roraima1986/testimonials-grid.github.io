@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->  
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>Frontend Mentor | Testimonials grid section</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   
   <div class="container">
 
-    <main class="main">
-      <section class="content">
+    <main class="main">  
 
         <!--ARTICLE 1-->
-        <article class="article article-1 purple">
+        <article class="article article-1 bg-purple">
+
+          <img src="./images/bg-pattern-quotation.svg" class="img-pattern">
           
           <!--Author-->
           <div class="author">
-            <div class="photo-author-container">
+            <div class="photo-author-container photo-author-purple">
               <img src="./images/image-daniel.jpg" class="photo-author" alt="Daniel Clifford">
             </div>
 
@@ -44,7 +48,7 @@
         </article>
 
         <!--ARTICLE 2-->
-        <article class="article article-2 gray">
+        <article class="article article-2 bg-gray">
           
           <!--Author-->
           <div class="author">
@@ -70,7 +74,7 @@
         </article>
 
         <!--ARTICLE 3-->
-        <article class="article article-3">
+        <article class="article article-3 bg-white">
           
           <!--Author-->
           <div class="author">
@@ -96,11 +100,11 @@
         </article>
 
         <!--ARTICLE 4-->
-        <article class="article article-4 black">
+        <article class="article article-4 bg-black">
           
           <!--Author-->
           <div class="author">
-            <div class="photo-author-container">
+            <div class="photo-author-container photo-author-purple">
               <img src="./images/image-patrick.jpg" class="photo-author" alt="Patrick Abrams">
             </div>
 
@@ -121,12 +125,9 @@
           </p>  
         </article>
 
-      </section>
-
-      <!--Sidebar-->
-      <aside class="sidebar">
-
-        <!--Author-->
+        <!--ARTICLE 5-->
+        <article class="article article-5 bg-white">
+          <!--Author-->
         <div class="author">
           <div class="photo-author-container">
             <img src="./images/image-kira.jpg" class="photo-author" alt="Kira Whittle">
@@ -139,16 +140,16 @@
         </div>
 
         <!--Article title-->
-        <h3 class="title">
+        <h2 class="title">
           Such a life-changing experience. Highly recommended! 
-        </h3>
+        </h2>
         
         <!--Article description-->
         <p class="description">
           “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”
         </p>  
+        </article>      
 
-      </aside>
     </main>
 
     <footer class="attribution">      
