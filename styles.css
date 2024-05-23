@@ -63,15 +63,11 @@ h1, h2 {
 
 .article-1 {
     grid-area: art1;
-    position: relative;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 20% top;
 }
 
-.img-pattern {
-    position: absolute;
-    top: 0;
-    right: 15%;
-    opacity: .5;
-}
 
 .article-2 {
     grid-area: art2;
