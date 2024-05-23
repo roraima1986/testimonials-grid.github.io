@@ -59,6 +59,7 @@ h1, h2 {
     background-color: var(--color-white);
     border-radius: 1rem;
     padding: 3rem;
+    box-shadow: 10px 10px 40px var(--color-light-gray);
 }
 
 .article-1 {
